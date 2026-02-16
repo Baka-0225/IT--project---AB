@@ -13,11 +13,11 @@ def tom(given):
      print("Lenght in meter: ",M," meters")
 
 given = input("Enter a magnitude to convert: ")
-ins = input("Enter instructions: ")
 print("1 to convert celsius to fahrenheit")
 print("2 to convert fahrenheit to celsius" )
 print("3 to convert from meter to feet")
 print("4 to convert from feet to meter ")
+ins = input("Enter instructions: ")
 
 if int(ins) == 1:
      tof(given)
